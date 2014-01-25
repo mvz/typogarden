@@ -42,7 +42,7 @@ a {color:#94581D }
 }
 .post_details{
 	color: #000000;
-	background: #FEF1C5 url(images/post_body_bg.jpg) repeat-x top left;
+	background: #FEF1C5 url(../../images/post_body_bg.jpg) repeat-x top left;
 	border: 1px solid #E2A76B;
 }
 .post_left{
@@ -52,7 +52,7 @@ a {color:#94581D }
 	top: -20px;
 }
 .post_date{
-	background: url(images/post_date.jpg) no-repeat top left;
+	background: url(../../images/post_date.jpg) no-repeat top left;
 	width:50px;
 	height:58px;
 	text-align:center;
@@ -68,7 +68,7 @@ a {color:#94581D }
 	background-attachment: fixed;
 	padding: 7px 0px 0px 90px;
 }
-.post_body{  padding: 15px 20px 20px 90px; background:url(/images/theme/quote_top_26.gif) no-repeat top left; }
+.post_body{  padding: 15px 20px 20px 90px; background:url(../../images/theme/quote_top_26.gif) no-repeat top left; }
 .post_meta {
 	color: #94581D;
 	font-size: 0.75em;
@@ -76,14 +76,14 @@ a {color:#94581D }
 	}
 .post_comments {
 	padding: 7px 30px 30px 15px;
-	background: url(images/quote_back.jpg) no-repeat 0% 0%;
+	background: url(../../images/quote_back.jpg) no-repeat 0% 0%;
 	text-decoration:underline;
 	margin: 17px 0px 0px 20px;
 	text-align: center;
 }
 
 .posttrackbacks a{
-	padding: 4px 0px 8px 35px; background: url(images/trackback_icon.jpg) no-repeat 0% 0%; text-decoration:underline;
+	padding: 4px 0px 8px 35px; background: url(../../images/trackback_icon.jpg) no-repeat 0% 0%; text-decoration:underline;
 }
 
 /* These are standard sIFR styles... do not modify */
@@ -138,7 +138,7 @@ pre{
 }
 
 blockquote{
-	background: url(images/quote_bg.jpg) no-repeat top left;
+	background: url(../../images/quote_bg.jpg) no-repeat top left;
 	padding: 1px 40px;
 	margin: 5px 20px;
 	font-size: 18px;

@@ -30,7 +30,7 @@ Structure:
 /* =Layout
 ----------------------------------------------- */
 body {
-  background:#BDDE10 url("/images/theme/green_back.png") repeat-x;
+  background:#BDDE10 url("../../images/theme/green_back.png") repeat-x;
   color:#333;
   font:1em/1.2em Arial, Verdana, Helvetica, sans-serif;
   }
@@ -148,7 +148,7 @@ body.articles #sidebar {
   padding:0 1em;
   }
 #search label {
-  background:url(/images/theme/t_livesearch.gif) no-repeat;
+  background:url(../../images/theme/t_livesearch.gif) no-repeat;
   display:block;
   text-indent:-1000em;
   width:33px;
@@ -184,7 +184,7 @@ body.articles .post {
    text-decoration:underline;
   }
 .post h2 small a {
-  background:url(/images/theme/top_hor.gif) no-repeat;
+  background:url(../../images/theme/top_hor.gif) no-repeat;
   display:block;
   height:20px;
   left:0;
@@ -227,7 +227,7 @@ p.auth {
   width:38em;
   }
 #commentList .author {
-  background:url(/images/theme/bubble_tail.gif) no-repeat 90% 100%;
+  background:url(../../images/theme/bubble_tail.gif) no-repeat 90% 100%;
   bottom:-41px;
   height:36px;
   position:absolute;
@@ -236,7 +236,7 @@ p.auth {
   width:40em;
   }
 #commentList .author img {
-  background:url(/images/theme/gravatar.gif) no-repeat;
+  background:url(../../images/theme/gravatar.gif) no-repeat;
   float:right;
   height:32px;
   margin: 4px 0.5em 0 3em;
@@ -305,7 +305,7 @@ body {
   height:100%;
   }
 #footer {
-  background:url("/images/theme/green_foot.png") repeat-x scroll bottom left;
+  background:url("../../images/theme/green_foot.png") repeat-x scroll bottom left;
   font-size:80%;
   height:160px;
   position:relative;
@@ -433,7 +433,7 @@ b.rtop b.r4, b.rbottom b.r4 {
   width:13em;
   }
 #scroller li a:hover{
-  background:url(/images/theme/hor.gif) no-repeat 100% 100%;
+  background:url(../../images/theme/hor.gif) no-repeat 100% 100%;
   }
 
 /* =Style =Switcher
@@ -455,14 +455,14 @@ b.rtop b.r4, b.rbottom b.r4 {
   text-indent:-1000em;
   }
 #layout-switcher {
-  background:url(/images/theme/t_layout.gif) no-repeat;
+  background:url(../../images/theme/t_layout.gif) no-repeat;
   display:none;
   }
 body.articles #layout-switcher {
   display:block;
   }
 #color-switcher {
-  background:url(/images/theme/t_color.gif) no-repeat;
+  background:url(../../images/theme/t_color.gif) no-repeat;
   }
 #switchers dd {
   margin:10px 5px 0 0;
@@ -476,19 +476,19 @@ body.articles #layout-switcher {
   width:20px;
   }
 #switch-Horizontal a, #switch-Horizontal.selected {
-  background:url(/images/theme/hor.gif) no-repeat;
+  background:url(../../images/theme/hor.gif) no-repeat;
   }
 #switch-Vertical a, #switch-Vertical.selected {
-  background:url(/images/theme/ver.gif) no-repeat;
+  background:url(../../images/theme/ver.gif) no-repeat;
   }
 #switch-Pink a, #switch-Pink.selected {
-  background:url(/images/theme/pink_s.gif) no-repeat;
+  background:url(../../images/theme/pink_s.gif) no-repeat;
   }
 #switch-Green a, #switch-Green.selected {
-  background:url(/images/theme/green_s.gif) no-repeat;
+  background:url(../../images/theme/green_s.gif) no-repeat;
   }
 #switch-Blue a, #switch-Blue.selected {
-  background:url(/images/theme/blue_s.gif) no-repeat;
+  background:url(../../images/theme/blue_s.gif) no-repeat;
   }
 
 /* =Layout styles
@@ -515,26 +515,26 @@ body.vertical .post {
   float:none;
   }
 body.vertical .post h2 small a {
-  background:url(/images/theme/top_ver.gif) no-repeat;
+  background:url(../../images/theme/top_ver.gif) no-repeat;
   }
 body.vertical #scroller li a:hover{
-  background:url(/images/theme/ver.gif) no-repeat 100% 100%;
+  background:url(../../images/theme/ver.gif) no-repeat 100% 100%;
   }
 
 /* =Color styles
 ----------------------------------------------- */
 /* color styles used in the Style Switcher */
 body.pink {
-  background:#ff99cc url(/images/theme/pink_back.png) repeat-x;
+  background:#ff99cc url(../../images/theme/pink_back.png) repeat-x;
   }
 body.pink #logo h1 a {
   color:#c77c9f;
   }
 body.pink #footer {
-  background:#ff99cc url(/images/theme/pink_foot.png) repeat-x scroll bottom left;
+  background:#ff99cc url(../../images/theme/pink_foot.png) repeat-x scroll bottom left;
   }
 body.blue {
-  background:#66CCFF url(/images/theme/blue_back.png) repeat-x;
+  background:#66CCFF url(../../images/theme/blue_back.png) repeat-x;
   }
 body.blue #logo h1 a {
   color:#51a0cc;

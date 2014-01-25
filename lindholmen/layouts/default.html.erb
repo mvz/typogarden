@@ -23,7 +23,7 @@
     <div id="top">  
       <div id="header">
         <div id="logo">
-          <h1 id="sitename"><%= link_to this_blog.blog_name, { :controller => '/' } %></h1>
+          <h1 id="sitename"><%= link_to this_blog.blog_name, this_blog.base_url %></h1>
           <h2 id="subtitle"><%= this_blog.blog_subtitle %></h2>
         </div>
       </div>
@@ -49,7 +49,7 @@
     </div>             
     <div id="content">
       <div id="main">
-        <%= @content_for_layout %>
+        <%= yield %>
         <%= javascript_tag "show_dates_as_local_time()" %>
       </div>
       <div id="sidebar">

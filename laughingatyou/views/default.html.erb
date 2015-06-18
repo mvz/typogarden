@@ -5,7 +5,7 @@
 	<title><%= this_blog.blog_name %> <%= ("| #{@article.title}") if @article %></title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="MSSmartTagsPreventParsing" content="true" />
-	<%= page_header %>
+	<%= render 'shared/page_header' %>
 	<%= auto_discovery_link_tag :atom, :controller => 'xml', :action => 'atom' %>
 	<%= stylesheet_link_tag "/stylesheets/theme/laughingatyou" %>
 </head>

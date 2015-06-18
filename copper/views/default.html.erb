@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title><%=h page_title %></title>
-  <%= page_header %>
+  <%= render 'shared/page_header' %>
   <%= stylesheet_link_tag "/stylesheets/theme/copper", :media => 'all'  %>
   <!--[if lte IE 6]>
   <%= stylesheet_link_tag "/stylesheets/theme/ie", :media => 'all'  %>
